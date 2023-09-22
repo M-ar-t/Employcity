@@ -9,15 +9,17 @@
   <body>
     <header>
       <div class="logo">
-        <span class="logo__without-highlight">LoremIpsum.</span>
-        <span class="logo__highlight">Net</span>
+        <a href="#">
+          <span class="logo__without-highlight">LoremIpsum.</span>
+          <span class="logo__highlight">Net</span>
+        </a>
       </div>
       <nav class="nav">
         <ul class="nav__list">
-          <li class="nav__item_active">Бизнес</li>
-          <li class="nav__item">О нас</li>
-          <li class="nav__item">Цены</li>
-          <li class="nav__item">Оформить заказ</li>
+          <li class="nav__item_active"><a href="#">Бизнес</a></li>
+          <li class="nav__item"><a href="#">О нас</a></li>
+          <li class="nav__item"><a href="#">Цены</a></li>
+          <li class="nav__item"><a href="#">Оформить заказ</a></li>
         </ul>
       </nav>
     </header>
@@ -68,8 +70,9 @@
               <li class="place-order__item">
                 <div class="place-order__wrapper">
                   <div class="place-order__circle">
-                    <img src="./assets/search.png" alt="" />
+                    <img src="./assets/search.png" alt="search" />
                     <div class="place-order__decor">
+                      <span class="place-order__decor-el"></span>
                       <span class="place-order__decor-el"></span>
                       <span class="place-order__decor-el"></span>
                       <span class="place-order__decor-el"></span>
@@ -84,8 +87,9 @@
               <li class="place-order__item">
                 <div class="place-order__wrapper">
                   <div class="place-order__circle">
-                    <img src="./assets/persent.png" alt="" />
+                    <img src="./assets/persent.png" alt="persent" />
                     <div class="place-order__decor">
+                      <span class="place-order__decor-el"></span>
                       <span class="place-order__decor-el"></span>
                       <span class="place-order__decor-el"></span>
                       <span class="place-order__decor-el"></span>
@@ -99,9 +103,10 @@
               <li class="place-order__item">
                 <div class="place-order__wrapper">
                   <div class="place-order__circle">
-                    <img src="./assets/doc.png" alt="" />
+                    <img src="./assets/doc.png" alt="doc" />
 
                     <div class="place-order__decor">
+                      <span class="place-order__decor-el"></span>
                       <span class="place-order__decor-el"></span>
                       <span class="place-order__decor-el"></span>
                       <span class="place-order__decor-el"></span>
@@ -115,8 +120,9 @@
               <li class="place-order__item">
                 <div class="place-order__wrapper">
                   <div class="place-order__circle">
-                    <img src="./assets/letter.png" alt="" />
+                    <img src="./assets/letter.png" alt="letter" />
                     <div class="place-order__decor">
+                      <span class="place-order__decor-el"></span>
                       <span class="place-order__decor-el"></span>
                       <span class="place-order__decor-el"></span>
                       <span class="place-order__decor-el"></span>
@@ -130,7 +136,7 @@
               <li class="place-order__item">
                 <div class="place-order__wrapper">
                   <div class="place-order__circle">
-                    <img src="./assets/money.png" alt="" />
+                    <img src="./assets/money.png" alt="money" />
                   </div>
 
                   <p class="place-order__text">
@@ -142,7 +148,7 @@
           </div>
 
           <div class="form">
-            <form class="form__form">
+            <form class="form__form" action="" method="post">
               <div class="form__text-inputs">
                 <div class="form__select-wrapper">
                   <select id="" class="form__select-el">
@@ -157,8 +163,9 @@
                 <div class="form__email-input">
                   <input
                     type="email"
+                    name="email"
                     id="email"
-                    placeholder="Ваш Email"
+                    placeholder="Ваш e-mail"
                     required
                   />
                 </div>
@@ -166,6 +173,7 @@
                   <input
                     type="text"
                     id="name"
+                    name="name"
                     placeholder="Ваше имя"
                     required
                   />
@@ -180,27 +188,70 @@
                     <div class="form__range-persent">75%</div>
                   </div>
                   <div>
-                    <input class="form__range-input"
+                    <input
+                      class="form__range-input"
                       type="range"
                       id="volume"
                       name="volume"
                       min="0"
                       max="100"
                     />
-                    <label for="volume">Volume</label>
                   </div>
                 </div>
                 <label class="form__input-file">
                   <input type="file" name="file" />
-                  <img src="./assets/attach.png" alt="" />
+                  <img src="./assets/attach.png" alt="attach" />
                   <span>Прикрепить файл</span>
                 </label>
               </div>
-              <div class="form__btn-wrapper"><button class="form__btn">Отправить</button></div>
+              <div class="form__btn-wrapper">
+                <button class="form__btn">Отправить</button>
+              </div>
             </form>
           </div>
         </div>
       </section>
     </main>
+    <footer class="footer">
+      <div class="footer__copyright">
+        © 2018 «LoremIpsum.net» Все права защищены.
+      </div>
+      <div class="footer__decor"></div>
+      <div class="footer__wallet">
+        <div class="footer__wallet-item">
+          <a href="tel:+79001111111">
+            <img class="footer__wallet-img" src="./assets/QIWI.png" alt="QIWI" />
+            <span class="footer-wallet-text">Qiwi wallet</span>
+          </a>
+        </div>
+        <div class="footer__wallet-item">
+          <a href="tel:+79001111111">
+            <img class="footer__wallet-img" src="./assets/yandex_money.png" alt="yandex-money" />
+            <span class="footer-wallet-text">Yandex Money</span>
+          </a>
+        </div>
+        <div class="footer__wallet-item">
+          <a href="tel:+79001111111">
+            <img class="footer__wallet-img" src="./assets/web_money.png" alt="web-money" />
+            <span class="footer-wallet-text">Web Money</span>
+          </a>
+        </div>
+      </div>
+      <div class="footer__decor"></div>
+      <div class="footer__contacts">
+        <div class="footer__contact-item">
+          <a href="mailto:info@ipsum228.com">
+            <img class="footer__contact-img" src="./assets/footer_letter.png" alt = "letter" />
+            <span class="footer-contact-text">info@ipsum228.com</span></a
+          >
+        </div>
+        <div class="footer__contact-item">
+          <a href="https://vk.com/" target="_blank">
+            <img class="footer__contact-img" src="./assets/we_vk.png" alt="vk"/>
+            <span class="footer-contact-text">Мы вконтакте</span>
+          </a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
