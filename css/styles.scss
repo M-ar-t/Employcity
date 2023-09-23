@@ -458,7 +458,7 @@ textarea {
   src: url("../fonts/raleway-v29-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 body {
-  background-color: #10101de5;
+  background-color: #282834;
   font-family: "Lato";
   font-weight: 400;
 }
@@ -468,13 +468,14 @@ body {
 header {
   display: flex;
   position: fixed;
-  background-color: #10101de5;
+  background-color: #282834;
   justify-content: space-between;
   align-items: center;
   padding: 32px 375px;
   box-sizing: border-box;
   width: 100%;
   z-index: 1;
+  box-shadow: 0px -5px 7px -5px rgb(40 70 93 / 60%) inset;
 }
 .logo {
   font-family: "Raleway";
@@ -569,6 +570,7 @@ main {
   margin-left: 10px;
 }
 .info__buttons {
+  display: flex;
   text-transform: uppercase;
   font-size: 13px;
 }
@@ -731,6 +733,7 @@ main {
 .form__other-input {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 30px;
   margin-bottom: 55px;
 }
@@ -837,7 +840,7 @@ main {
   gap: 38px;
 }
 .footer__wallet-item {
-  &:hover{
+  &:hover {
     transform: scale(1.03);
   }
 }
@@ -854,7 +857,7 @@ main {
   align-items: center;
 }
 .footer__contact-item {
-  &:hover{
+  &:hover {
     transform: scale(1.03);
   }
 }
@@ -865,3 +868,29 @@ main {
   color: #c3c3c3;
   font-size: 13px;
 }
+
+// BURGER MENU
+.burger-menu {
+  display: none;
+  // position: fixed;
+  // top:20px;
+  // right: 20px;
+  img {
+    width: 40px;
+    height: 40px;
+  }
+}
+// CLOSE BUTTON
+.close-btn{
+display: none;
+  position: fixed;
+  top:20px;
+  right: 20px;
+  z-index: 20;
+  img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@import "./styles-media.scss"

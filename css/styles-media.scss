@@ -1,0 +1,224 @@
+@media screen and (max-width: 1650px) {
+    .info-blok {
+      background-position: right;
+    }
+  
+    .info__title {
+      background-color: #f3f3f3cc;
+      box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
+      padding: 10px;
+      border-radius: 10px;
+    }
+    .info {
+      padding: 108px 0px 219px 175px;
+    }
+  }
+  @media screen and (max-width: 1478px) {
+    header {
+      padding: 32px 200px;
+    }
+  }
+  @media screen and (max-width: 1215px) {
+    header {
+      padding: 32px 100px;
+    }
+    .info {
+      padding: 108px 0px 219px 0px;
+    }
+    .info__title {
+      margin: auto;
+      margin-bottom: 91px;
+    }
+    .info__description {
+      margin: auto;
+      margin-bottom: 96px;
+    }
+    .info__buttons {
+      text-align: center;
+    }
+    .info__description {
+      background-color: #f3f3f3cc;
+      box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
+      padding: 10px;
+      border-radius: 10px;
+    }
+    .place-order__circle {
+      width: 80px;
+      height: 80px;
+    }
+    .place-order__decor {
+      left: 104px;
+      gap: 15px;
+    }
+    .place-order__text {
+      width: 160px;
+    }
+    .form__text-inputs {
+      flex-direction: column;
+    }
+    .form__other-input {
+      flex-direction: column;
+    }
+    .form__range {
+      width: 370px;
+    }
+    .footer__copyright {
+      width: 150px;
+    }
+    .footer__wallet,
+    .footer__contacts {
+      flex-direction: column;
+    }
+    .info__buttons {
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    header {
+      padding: 32px 50px;
+    }
+    .nav__list {
+      gap: 30px;
+    }
+    .place-order__list {
+      flex-wrap: wrap;
+      padding: 0px 60px;
+    }
+    .place-order__decor {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    header {
+      padding: 32px 50px;
+    }
+    .nav__list {
+      gap: 30px;
+    }
+    .place-order__list {
+      flex-wrap: wrap;
+      padding: 0px 60px;
+    }
+    .place-order__decor {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 728px) {
+    header {
+      align-items: center;
+      padding: 26px 50px;
+    }
+    .burger-menu {
+      display: block;
+     
+    }
+    .close-btn_active{
+      display: block;
+      transition-delay: 4s;
+    }
+  
+    .nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #282834;
+      margin: 0;
+      padding: 50px;
+      width: 100%;
+      height: 100vh;
+      transform: translate(100%);
+      transition: .3s;
+    }
+    .nav_active{
+      transform: translate(0);
+      transition: .3s;
+    }
+    .nav__list {
+      flex-direction: column;
+      gap: 60px;
+      font-size: 26px;
+    }
+    .info-blok {
+      background: none;
+      background-color: #ffffff;
+    }
+    .info__title,
+    .info__description {
+      background-color: white;
+      box-shadow: none;
+      padding: 20px;
+      border-radius: none;
+      text-align: center;
+    }
+    .info__title {
+      font-size: 40px;
+      margin-bottom: 30px;
+    }
+    .info__description {
+      font-size: 16px;
+      text-align: left;
+      margin-bottom: 40px;
+    }
+    .info__list-header {
+      text-align: center;
+    }
+    .info {
+      padding: 108px 0px 100px 0px;
+    }
+    .place-order__label {
+      padding: 0px 10px;
+    }
+    .place-order__title {
+      font-size: 30px;
+      padding: 10px;
+    }
+    .place-order-blok {
+      padding-top: 60px;
+    }
+    .footer {
+      flex-direction: column;
+    }
+    .footer__decor {
+      display: none;
+    }
+    .footer__copyright {
+      text-align: center;
+    }
+    main {
+      margin-bottom: 60px;
+    }
+    .info__list-header {
+      line-height: 30px;
+    }
+  }
+  @media screen and (max-width: 430px) {
+    header{
+      padding: 32px 15px;
+    }
+    .logo{
+      font-size: 24px;
+    }
+    .form__text-inputs input,
+    .form__text-inputs select,
+    .form__input-file,
+    .form__btn {
+      width: 250px;
+    }
+    .form__range {
+      width: 250px;
+    }
+    .info__buttons {
+      flex-direction: column;
+      gap: 40px;
+    }
+    .info__left-btn {
+      margin-right: 0px;
+    }
+    .info__title {
+      font-size: 27px;
+      margin-bottom: 0px;
+      line-height: 35px;
+    }
+  }
+  

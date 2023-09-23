@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <title>Lorem</title>
   </head>
   <body>
@@ -14,14 +15,17 @@
           <span class="logo__highlight">Net</span>
         </a>
       </div>
+      <div class="burger-menu"><img src="./assets/burger-menu.png" alt="burger-menu"/></div>
+      <div class="close-btn"><img src="./assets/close.png" alt="close-btn"/></div>
       <nav class="nav">
         <ul class="nav__list">
-          <li class="nav__item_active"><a href="#">Бизнес</a></li>
-          <li class="nav__item"><a href="#">О нас</a></li>
-          <li class="nav__item"><a href="#">Цены</a></li>
-          <li class="nav__item"><a href="#">Оформить заказ</a></li>
+          <li class="nav__item nav__item_active" id="business"><a href="#">Бизнес</a></li>
+          <li class="nav__item" id="aboutUs"><a href="#">О нас</a></li>
+          <li class="nav__item" id="price"><a href="#">Цены</a></li>
+          <li class="nav__item" id="order"><a href="#">Оформить заказ</a></li>
         </ul>
       </nav>
+     
     </header>
     <main>
       <section class="info-blok">
@@ -48,8 +52,8 @@
             </ul>
           </div>
           <div class="info__buttons">
-            <a href="#" class="info__left-btn">Заказать</a>
-            <a href="#" class="info__right-btn">Подробнее</a>
+            <div><a href="#" class="info__left-btn">Заказать</a></div>
+            <div><a href="#" class="info__right-btn">Подробнее</a></div>     
           </div>
         </div>
       </section>
@@ -253,5 +257,7 @@
         </div>
       </div>
     </footer>
+   
+    <script src="jquery.js"></script>
   </body>
 </html>
