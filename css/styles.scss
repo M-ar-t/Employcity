@@ -528,7 +528,7 @@ main {
   margin-bottom: 150px;
 }
 .info-blok {
-  background: url("../assets/background.png");
+  background: url("../assets/background-min.png");
   max-height: 850px;
   background-position: 1px -95px;
 }
@@ -872,9 +872,6 @@ main {
 // BURGER MENU
 .burger-menu {
   display: none;
-  // position: fixed;
-  // top:20px;
-  // right: 20px;
   img {
     width: 40px;
     height: 40px;

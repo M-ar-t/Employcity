@@ -509,7 +509,7 @@ main {
 }
 
 .info-blok {
-  background: url("../assets/background.png");
+  background: url("../assets/background-min.png");
   max-height: 850px;
   background-position: 1px -95px;
 }
